@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms.Dock" Version="23.2.81" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\NIshibashi\Cases\KB\13047\KB13047_WinFormsApp1\KB13047_WinFormsApp1\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\NIshibashi\Cases\KB\13047\KB13047_WinFormsApp1\KB13047_WinFormsApp1\.editorconfig" />
+  </ItemGroup>
+
+</Project>
